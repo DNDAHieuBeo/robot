@@ -1,0 +1,369 @@
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://api.ohmnilabs.com/ohmni-api/Ohmni-standalone.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="/css/index.css" rel="stylesheet" type="text/css">
+
+<title>Document</title>
+</head>
+<body id="page-top" class="index" data-pinterest-extension-installed="cr1.3.4">
+
+<!-- Header -->
+<div class="container">
+  <div class="introduction_page">
+    <div class="introduction_page_text">
+      <div class='introduction_page_text_1'>Hi, How can i help you ?</div>
+      
+      <button class="introduction_page_button">Let's go</button>
+    </div>
+  </div>
+
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Functions</h2>
+                <h3 class="section-subheading text-muted">Choose what you need</h3>
+            </div>
+        </div>
+        <div class="row">
+          <div class="row_1">
+             <div class="col-md-4 col-sm-6 portfolio-item" onclick="nod()"> 
+                <a href="/check-grade" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://www.thoughtco.com/thmb/MNAuHiUw6oxN3RUkpCdutm9Aj-s=/3888x2592/filters:fill(auto,1)/the-best-157314672-5a2ffaf8beba33003773ac96.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 style="font-size: 20;">Check my grade</h4>
+                    
+                </div>
+            </div>                                                               
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="/take-picture" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://static-cse.canva.com/image/127622/evan-kirby-142074.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 style="font-size: 20;">Take a picture</h4>
+                    
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="/show-map" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://lifecentral.org.uk/wp-content/uploads/2017/03/another-way.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 style="font-size: 20;">Show map</h4>
+                    
+                </div>
+            </div> 
+          </div>
+          <div class="row_2">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="/FAQs" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://paroda.vn/media/2021/08/customer-service.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 style="font-size: 20;">FAQs</h4>
+                    
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="https://tuyensinhvnuk.edu.vn/chuong-trinh-dao-tao/" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="/image/avatarvnuk.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 style="font-size: 20;">Major information</h4>
+                    
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="https://cdnstepup.r.worldssl.net/wp-content/uploads/2021/06/luu-y-khi-su-dung-cau-truc-support.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 style="font-size: 20;">Call for support</h4>
+                    
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Heading</h2>
+                        <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                        <img class="img-responsive img-centered" src="https://unsplash.imgix.net/44/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=f0a1db79752dbb04ec6d2aab7d17c7b0" alt="">
+                        <p><a href="https://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                        <p>You can preview Startup Framework <a href="https://designmodo.com/startup/?u=787">here</a>.</p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(".introduction_page_button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#portfolio").offset().top
+    }, 1000);
+});
+</script>
+<!-- jQuery Version 1.11.0 -->
+<script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/classie.js"></script>
+<script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/jqBootstrapValidation.js"></script>
+<script src="https://raw.githubusercontent.com/IronSummitMedia/startbootstrap/gh-pages/templates/agency/js/contact_me.js"></script>
+
+
+</body>
+<script>
+console.log("Ohmni here:", Ohmni)
+// Convenience helpers
+
+function wait(cb, ms) {
+setTimeout(function(){ cb(); }, ms);
+}
+
+var lhue = 0;
+
+// Set up the beat here
+function upbeat() {
+
+Ohmni.setNeckPosition(550, 140);
+wait(function(){
+downbeat();
+}, 1000);
+
+}
+
+// Set up the beat here
+function downbeat() {
+
+// Change light on every downbeat
+Ohmni.setLightColor(lhue, 230, 100);
+lhue += 20;
+if (lhue > 255) lhue -= 256;
+
+// Perform upbeat next
+Ohmni.setNeckPosition(350, 80);
+wait(function(){
+upbeat();
+}, 500);
+
+}
+
+function onLoad() {
+hideBotInfo();
+}
+
+var player = null;
+function onYouTubePlayerAPIReady() {
+console.log("Player ready!");
+player = new YT.Player('player', {
+events: {
+  'onReady': onPlayerReady,
+  'onStateChange': onPlayerStateChange
+}
+});
+}
+
+//function onPlayerReady(event) {
+//  console.log("Player is ready.");
+
+// Ohmni.setSpeechLanguage("zh-TW");
+// Ohmni.say("你好");
+
+//  Ohmni.setSpeechLanguage("en-US");
+//  Ohmni.say("Meo ready!", function(){
+
+//    Ohmni.setLightColor(30,230,100);
+//  });
+
+//}
+function chineseSpeech() {
+Ohmni.setSpeechLanguage("zh-TW");
+Ohmni.say("你好");
+}
+
+function onPlayerStateChange(event) {
+console.log("Player state change.");
+}
+
+// Run a phase sequence
+function run_phases(phasearr, idx) {
+
+// Check if we have something to do
+if (idx >= phasearr.length) return;
+
+// Get and run the function with a callback to trigger next phase
+var self = this;
+var fn = phasearr[idx];
+fn(function(){
+setTimeout(function(){
+  self.run_phases(phasearr, idx+1);
+}, 1);
+});
+
+};
+
+// Wait and then trigger callback
+function wait(cb, time) {
+setTimeout(function() {
+cb();
+}, time);
+}
+
+function move() {
+var phases = [
+function(cb) {
+  Ohmni.move(-100, 100, 2000);
+  wait(cb, 2000);
+},
+];
+run_phases(phases, 0);
+}
+
+function praise() {
+Ohmni.say("Meo is cool!", function(){
+Ohmni.say("Praise Callback");
+});
+}
+
+function requestBotInfo() {
+Ohmni.requestBotInfo();
+}
+
+function cbRequestBotInfo(data) {
+console.log('cbRequestBotInfo', data)
+showBotInfo(data);
+}
+
+function showBotInfo(data) {
+const dataObject = JSON.parse(data);
+
+document.querySelector("#bot_info").style.display = "block";
+document.getElementById("bot_name").innerHTML = dataObject.name;
+document.getElementById("bot_id").innerHTML = dataObject.botId;
+document.getElementById("bot_version").innerHTML = dataObject.version;
+document.getElementById("wifi_ssid").innerHTML = dataObject.wifi.ssid;
+document.getElementById("wifi_bssid").innerHTML = dataObject.wifi.bssid;
+document.getElementById("wifi_ip").innerHTML = intToIPV4(dataObject.wifi.ip);
+document.getElementById("wifi_frequency").innerHTML = dataObject.wifi.freq + " MHz";
+document.getElementById("wifi_rssi").innerHTML = dataObject.wifi.rssi + " dBm";
+document.getElementById("wifi_speed").innerHTML = dataObject.wifi.speed + " Mbps";
+document.getElementById("serial").innerHTML = dataObject.serial;
+
+const shareLinksNode = document.querySelector("#share_links");
+// remove all element
+while (shareLinksNode.firstChild) {
+shareLinksNode.removeChild(shareLinksNode.firstChild);
+}
+const shareLinksElements = Object.keys(dataObject.shareLinks).forEach(element => {
+const shareLink = document.createElement("p");
+const shareLinkNode = document.createTextNode(`Share link : app.ohmnilabs.com/share/${element}`);
+shareLink.appendChild(shareLinkNode);
+shareLinksNode.appendChild(shareLink);
+});
+}
+
+function hideBotInfo() {
+document.querySelector("#bot_info").style.display = "none";
+}
+
+const intToIPV4 = num => {
+const part1 = num & 255;
+const part2 = (num >> 8) & 255;
+const part3 = (num >> 16) & 255;
+const part4 = (num >> 24) & 255;
+return `${part1}.${part2}.${part3}.${part4}`;
+};
+
+function nod() {
+var phases = [
+function(cb) {
+  Ohmni.say("Nodding.");
+  wait(cb, 800);
+},
+function(cb) {
+  Ohmni.setNeckTorqueEnabled(1);
+  wait(cb, 800);
+},
+function(cb) {
+  Ohmni.setNeckPosition(600, 100);
+  wait(cb, 2000);
+},
+function(cb) {
+  Ohmni.setNeckPosition(250, 100);
+  wait(cb, 2000);
+},
+function(cb) {
+  Ohmni.setNeckTorqueEnabled(0);
+  wait(cb, 1);
+},
+];
+run_phases(phases, 0);
+}
+
+
+</script>

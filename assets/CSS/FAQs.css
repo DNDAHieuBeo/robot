@@ -1,0 +1,27 @@
+.containter{
+    width: 100%;
+}
+.FAQs_form{
+    width: 40%;
+    margin: auto;
+    border: 3px solid;
+    padding: 20px;
+}
+.header_of_FAQs{
+    width: 11%;
+    margin: 0 auto;
+    font-size: 70px;
+    
+    
+
+}
+.question{
+    font-size: 30px;
+    font-family:'Roboto';
+     
+}
+.answer{
+    font-size: 25px;
+    font-family:'Roboto';
+    
+}
