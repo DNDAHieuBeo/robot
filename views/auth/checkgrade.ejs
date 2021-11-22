@@ -7,6 +7,7 @@
 <!-- Header -->
 <div class="container">
   <div class="check_grade_page">
+    <button class="turn_back" onclick="goBack()">Back</button>
     <div class="check_grade_page_text">
       <div class='check_grade_page_text_1'>Fill you student ID here</div>
       <input class="input_ID" placeholder="Enter your ID" type="number">
@@ -14,5 +15,9 @@
     </div>
   </div>
 
-
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
 </body>

@@ -27,5 +27,6 @@ export {
   getFAQs,
   getCheckgrade,
   getTakePicture,
-  getShowMap
+  getShowMap,
+  
 };
